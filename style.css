@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    background-image: linear-gradient(to bottom right, rgb(82, 243, 154), rgb(6, 214, 214), rgb(50, 204, 243));
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    margin:0 auto;
+    height:250px;
+    margin-top: 250px;
+}
+
+.pizza-pic{
+    width:250px;
+    height:250px;
+}
+
+.content{
+    background-color: white;
+    width:400px;
+    padding: 30px;
+}
+
+.content-container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.pizza-vegetale{
+    font-size:larger;
+    font-weight: bold;
+}
+
+.finger-emoji{
+    width:15px;
+    height:15px;
+}
+
+.vegetarian{
+    background-color: rgb(82, 243, 154);
+    border-radius: 10px;
+    padding: 5px;
+    font-size: x-small;
+    margin-left: 60px;
+}
+
+.italian{
+    background-color: rgb(50, 204, 243);
+    border-radius:10px;
+    padding: 5px;
+    font-size:x-small;
+}
+
+
+.descriptor{
+    margin-top: 40px;
+}
+
+
+.calorie-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.kcal{
+    font-weight: bolder;
+}
+
+.min{
+    font-weight: bolder;
+}
+
+.stars{
+    font-weight: bolder;
+}
+
+
+.pizza-emoji{
+    width:15px;
+    height: 15px;
+}
+
+.clock-emoji{
+    width:15px;
+    height: 15px;
+}
+
+.star-emoji{
+    width:15px;
+    height: 15px;
+}
+
+.price{
+    background-image: linear-gradient(to bottom, rgb(82, 243, 154), rgb(50, 204, 243));
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    writing-mode: vertical-lr;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
